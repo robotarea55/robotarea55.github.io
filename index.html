@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Area55 Backup</title>
+  <meta name="description" content="Area55 Backup is a private tool that copies the owner's own database and files to the owner's own Google Drive.">
+  <style>
+    :root { color-scheme: light dark; --bg: #faf7f2; --fg: #2a2926; --muted: #6b675f; --line: #e3ddd2; --link: #b85600; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1d1c1a; --fg: #ece8e1; --muted: #a29c91; --line: #34322e; --link: #f0a05a; } }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 20px 64px; }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    p { margin: 12px 0; }
+    .muted { color: var(--muted); }
+    a { color: var(--link); }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Area55 Backup</h1>
+    <p class="muted">A private backup tool for a single owner.</p>
+
+    <p>Area55 Backup is a small automated script used by one person, the owner of the Area55 business application, to keep a copy of that application's own database and uploaded files.</p>
+
+    <p>Once a day the script copies the owner's data to a folder in the owner's own Google Drive. The copies are encrypted before they are uploaded. The tool asks Google for the narrowest Drive permission (<code>drive.file</code>), which only allows it to see and manage the files and folders that it created itself. It cannot read any other file in the Drive.</p>
+
+    <p>This tool is not offered to the public, has no sign-up, and does not collect, sell, or share data about any visitor or other person.</p>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+
+    <footer>Contact: <a href="mailto:robotarea55@gmail.com">robotarea55@gmail.com</a></footer>
+  </main>
+</body>
+</html>
